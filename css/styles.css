@@ -123,7 +123,7 @@ img {
 }
 
 .hero-container {
-  padding: 188px 472px;
+  padding: 188px 0px;
   max-width: 1158px;
   display: flex;
   align-items: center;
@@ -131,7 +131,7 @@ img {
 }
 
 .page-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
@@ -169,7 +169,7 @@ img {
 }
 
 .advantages-container {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -187,11 +187,15 @@ img {
 
 .advantages-list {
   display: flex;
-  column-gap: 24px;
 }
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
+  margin-right: 24px;
+}
+
+.advantages-item:last-child {
+  margin-right: 0;
 }
 
 .advantages-subtitle {
@@ -232,7 +236,7 @@ img {
 }
 
 .block-container {
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-title {
@@ -246,15 +250,8 @@ img {
   color: #2e2f42;
 }
 
-.team-text {
-  margin-top: 8px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-
 .team-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -262,18 +259,25 @@ img {
   text-align: center;
   color: #2e2f42;
 }
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
 /* #endregion */
 
 /* #region Portolio */
 
 .portfolio {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   width: calc(100% - 48px) / 3;
 }
 
@@ -286,12 +290,24 @@ img {
 
 .portfolio-item {
   background-color: #fff;
+  margin-bottom: 48px;
+  margin-left: 24px;
+}
+
+.portfolio-item:nth-child(4),
+.portfolio-item:nth-child(5),
+.portfolio-item:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.portfolio-item:nth-child(1),
+.portfolio-item:nth-child(4) {
+  margin-left: 0;
 }
 
 .portfolio-title {
   margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -301,6 +317,7 @@ img {
 }
 
 .portfolio-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -321,12 +338,11 @@ img {
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer-logo {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
