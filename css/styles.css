@@ -123,7 +123,7 @@ img {
 }
 
 .hero-container {
-  padding: 188px 0 188px;
+  padding: 188px 0;
   max-width: 1158px;
   display: flex;
   align-items: center;
@@ -169,7 +169,7 @@ img {
 }
 
 .advantages-container {
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -337,7 +337,7 @@ img {
 }
 
 .footer-container {
-  padding: 100px 0 100px;
+  padding: 100px 0;
 }
 
 .footer-logo {
