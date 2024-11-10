@@ -123,7 +123,8 @@ img {
 }
 
 .hero-container {
-  padding: 188px 0px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   max-width: 1158px;
   display: flex;
   align-items: center;
@@ -169,7 +170,8 @@ img {
 }
 
 .advantages-container {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -277,6 +279,7 @@ img {
 
 .portfolio-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: calc(100% - 48px) / 3;
 }
@@ -291,18 +294,12 @@ img {
 .portfolio-item {
   background-color: #fff;
   margin-bottom: 48px;
-  margin-left: 24px;
 }
 
 .portfolio-item:nth-child(4),
 .portfolio-item:nth-child(5),
 .portfolio-item:nth-child(6) {
   margin-bottom: 0;
-}
-
-.portfolio-item:nth-child(1),
-.portfolio-item:nth-child(4) {
-  margin-left: 0;
 }
 
 .portfolio-title {
@@ -338,7 +335,8 @@ img {
 }
 
 .footer-container {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
