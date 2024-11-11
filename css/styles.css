@@ -120,10 +120,10 @@ img {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
   max-width: 1158px;
   display: flex;
   align-items: center;
@@ -164,7 +164,7 @@ img {
 
 /* #region Advantages  */
 
-.advantages-container {
+.advantages {
   padding: 120px 0;
 }
 
@@ -330,9 +330,6 @@ img {
 /* #region Footer  */
 .page-footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0;
 }
 
